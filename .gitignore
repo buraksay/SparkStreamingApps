@@ -1,1 +1,4 @@
 .idea/*
+deploy/.vagrant/
+deploy/cassandra/apache-cassandra-2.0.11-bin.tar.gz
+deploy/spark/spark-1.2.0-bin-hadoop2.4.tgz
