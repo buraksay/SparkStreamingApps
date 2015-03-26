@@ -12,7 +12,7 @@ service docker restart
 
 echo "NOW CREATING VAGRANT DOCKER CLUSTER "
 
-vagrant destroy --force && vagrant up --no-parallel
+vagrant destroy --force && vagrant up --no-parallel --provider=docker
 
 ## Run calculate pi. 
 
